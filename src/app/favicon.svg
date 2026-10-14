@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="0.55" stop-color="#EC4899"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+  <!-- circle emblem -->
+  <circle cx="600" cy="420" r="300" fill="none" stroke="url(#g)" stroke-width="22"/>
+  <!-- sound-wave bars -->
+  <g fill="url(#g)">
+    <rect x="360" y="380" width="36" height="80" rx="18"/>
+    <rect x="420" y="320" width="36" height="200" rx="18"/>
+    <rect x="480" y="250" width="36" height="340" rx="18"/>
+    <rect x="540" y="300" width="36" height="240" rx="18"/>
+    <rect x="600" y="220" width="36" height="400" rx="18"/>
+    <rect x="660" y="290" width="36" height="260" rx="18"/>
+    <rect x="720" y="340" width="36" height="160" rx="18"/>
+    <rect x="780" y="385" width="36" height="70" rx="18"/>
+  </g>
+  <!-- wordmark -->
+  <text x="600" y="900" text-anchor="middle" font-family="Poppins, Montserrat, 'Helvetica Neue', Arial, sans-serif" font-size="150" font-weight="800" fill="url(#t)" letter-spacing="2">Music<tspan fill="#06B6D4">Wave</tspan></text>
+  <text x="600" y="985" text-anchor="middle" font-family="Poppins, Montserrat, 'Helvetica Neue', Arial, sans-serif" font-size="42" font-weight="500" fill="#64748B" letter-spacing="14">FEEL THE RHYTHM</text>
+</svg>
